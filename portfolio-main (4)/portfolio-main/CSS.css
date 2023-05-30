@@ -1,0 +1,120 @@
+body{
+    background-color:#142225 ; 
+
+}
+
+.container{
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+    padding: 10px;
+    align-items: flex-start;
+	 
+    
+}
+
+img{
+	width: 550px;
+	height: 400px;
+	margin:25px;
+	transition:all 1s;
+
+}
+img:hover {
+	transform:scale(1.1);
+	opacity: 20%;
+}
+
+
+
+.landscape{
+		display:flex;
+	    flex-wrap:wrap;
+	    justify-content:center;
+	    margin:10px;
+	    box-shadow: 0 8px 8px -4px black;
+		align-items: space-around;
+
+
+} 
+
+.objects{
+	    display:flex;
+	    flex-wrap:wrap;
+	    align-items: space-around;
+	    justify-content:center;
+	    margin:10px;
+	    box-shadow: 0 8px 8px -4px black;
+		
+} 
+
+.wedding{
+		display:flex;
+	    flex-wrap:wrap;
+	    align-items: space-around;
+	    justify-content:center;
+	    margin:10px;
+	    box-shadow: 0 8px 8px -4px black;
+
+
+} 
+
+.portrait{
+		display:flex;
+	    flex-wrap:wrap;
+	    align-items: space-around;
+	    justify-content:center;
+	    margin:10px;
+		box-shadow: 0 8px 8px -4px black;
+	   
+
+} 
+
+.abstract{
+		display:flex;
+	    flex-wrap:wrap;
+	    align-items: space-around;
+	    justify-content:center;
+        margin:10px;
+        box-shadow: 0 8px 8px -4px black;
+
+} 
+
+.wildlife{
+		display:flex;
+	    flex-wrap:wrap;
+	    align-items: space-around;
+	    justify-content:center;
+        margin:10px;
+        box-shadow: 0 8px 8px -4px black;
+
+
+
+} 
+.image-container {
+	position: relative;
+	display: inline-block;
+  }
+  
+  .image-container:hover .overlay-text {
+	display: block;
+  }
+  
+  .overlay-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+	color: rgb(245, 235, 235);
+	padding: 10px;
+	font-size:xx-large;
+	font-family: 'Times New Roman', Times, serif;
+	
+  }
+
+.nav-link {
+	color: whitesmoke;
+	
+}
+
